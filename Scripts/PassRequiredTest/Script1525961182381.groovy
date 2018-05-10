@@ -18,4 +18,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://52.14.107.181:8085/')
+
+WebUI.setText(findTestObject('PassRequiredTest/Page_ProjectBackend/input_username'), 'admin')
+
+WebUI.click(findTestObject('PassRequiredTest/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('PassRequiredTest/Page_ProjectBackend/label_Password is required'))
+
+WebUI.closeBrowser()
 
