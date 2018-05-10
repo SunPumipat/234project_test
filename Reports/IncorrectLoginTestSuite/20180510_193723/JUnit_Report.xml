@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IncorrectLoginTestSuite" time="5" tests="0" failures="1" errors="0">
+   <testsuite name="IncorrectLoginTestSuite" tests="0" failures="1" errors="0" time="5" timestamp="2018-05-10 19:37:24" hostname="Sunjido - 10.80.155.47" id="Test Suites/IncorrectLoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\IncorrectLoginTestSuite\\20180510_193723"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\IncorrectLoginTestSuite\\20180510_193723\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - 10.80.155.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.80.155.47"/>
+         <property name="sessionId" value="14954e36-3044-404c-bc7d-607b88febc74"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IncorrectLoginTest" classname="Test Cases/IncorrectLoginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-J51BJ5M', ip: '10.80.155.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15984, moz:profile: C:\Users\Sun na Hee\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14954e36-3044-404c-bc7d-607b88febc74
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-05-10 19:37:24 - [TEST_CASE][FAILED] - Test Cases/IncorrectLoginTest: Test Cases/IncorrectLoginTest FAILED because (of) Unable to set text 'user' of object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-J51BJ5M', ip: '10.80.155.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15984, moz:profile: C:\Users\Sun na Hee\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14954e36-3044-404c-bc7d-607b88febc74
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 19:37:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 19:37:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 19:37:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 19:37:29 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 19:37:29 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-J51BJ5M', ip: '10.80.155.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15984, moz:profile: C:\Users\Sun na Hee\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14954e36-3044-404c-bc7d-607b88febc74
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})
+
+2018-05-10 19:37:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-10 19:37:29 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-J51BJ5M', ip: '10.80.155.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15984, moz:profile: C:\Users\Sun na Hee\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14954e36-3044-404c-bc7d-607b88febc74
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-05-10 19:37:24 - [TEST_CASE][FAILED] - Test Cases/IncorrectLoginTest: Test Cases/IncorrectLoginTest FAILED because (of) Unable to set text 'user' of object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-J51BJ5M', ip: '10.80.155.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15984, moz:profile: C:\Users\Sun na Hee\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 14954e36-3044-404c-bc7d-607b88febc74
+*** Element info: {Using=xpath, value=//input[@name = 'username' and @type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 19:37:24 - [TEST_SUITE][INCOMPLETE] - IncorrectLoginTestSuite: null]]></system-out>
+      <system-err><![CDATA[2018-05-10 19:37:24 - [TEST_SUITE][INCOMPLETE] - IncorrectLoginTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

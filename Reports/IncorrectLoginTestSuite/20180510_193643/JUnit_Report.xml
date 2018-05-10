@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IncorrectLoginTestSuite" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="IncorrectLoginTestSuite" tests="1" failures="0" errors="0" time="11" timestamp="2018-05-10 19:36:44" hostname="Sunjido - 10.80.155.47" id="Test Suites/IncorrectLoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\IncorrectLoginTestSuite\\20180510_193643"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\IncorrectLoginTestSuite\\20180510_193643\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - 10.80.155.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.80.155.47"/>
+         <property name="sessionId" value="39e48b8e-e4b0-4e45-b9d1-95e55e1a645b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IncorrectLoginTest" classname="Test Cases/IncorrectLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-05-10 19:36:44 - [TEST_CASE][PASSED] - Test Cases/IncorrectLoginTest: Test Cases/IncorrectLoginTest
+
+2018-05-10 19:36:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 19:36:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 19:36:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 19:36:55 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 19:36:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username'
+
+2018-05-10 19:36:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_username'
+
+2018-05-10 19:36:55 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_password'
+
+2018-05-10 19:36:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/input_password'
+
+2018-05-10 19:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 19:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IncorrectLoginTest/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 19:36:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 19:36:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 19:36:44 - [TEST_SUITE][PASSED] - IncorrectLoginTestSuite: Test Cases/IncorrectLoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

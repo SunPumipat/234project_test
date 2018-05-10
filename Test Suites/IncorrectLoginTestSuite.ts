@@ -4,10 +4,38 @@
    <name>IncorrectLoginTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-10T19:37:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3b64805e-47c7-431a-80ba-ed391eda0a9a</testSuiteGuid>
+   <testCaseLink>
+      <guid>87e46f7c-6c45-440c-8ef6-87b183803469</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IncorrectLoginTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ff393648-921c-49d3-a452-8225157911c3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/IncorrectLoginTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ff393648-921c-49d3-a452-8225157911c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0ff4c9dd-ac55-4d9a-899e-ff1cc7567c39</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff393648-921c-49d3-a452-8225157911c3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4fd0b864-99f1-416b-8218-8c45a116f656</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

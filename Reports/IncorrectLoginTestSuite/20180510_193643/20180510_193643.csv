@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IncorrectLoginTestSuite,Firefox 60.0,,2018-05-10 19:36:44,2018-05-10 19:36:56,11.911s,PASSED
+,,,,,,
+Test Cases/IncorrectLoginTest,Firefox 60.0,,2018-05-10 19:36:44,2018-05-10 19:36:56,11.527s,PASSED
+openBrowser,Firefox 60.0,,2018-05-10 19:36:45,2018-05-10 19:36:48,3.825s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-10 19:36:48,2018-05-10 19:36:55,6.556s,PASSED
+setText,Firefox 60.0,,2018-05-10 19:36:55,2018-05-10 19:36:55,0.143s,PASSED
+setText,Firefox 60.0,,2018-05-10 19:36:55,2018-05-10 19:36:55,0.080s,PASSED
+click,Firefox 60.0,,2018-05-10 19:36:55,2018-05-10 19:36:56,0.284s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-10 19:36:56,2018-05-10 19:36:56,0.218s,PASSED
