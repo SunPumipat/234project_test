@@ -22,9 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('AdminLoginTest/Page_ProjectBackend/button_Login'))
 
