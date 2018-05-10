@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OpenBrowserTestSuite" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="OpenBrowserTestSuite" tests="1" failures="0" errors="0" time="11" timestamp="2018-05-10 14:26:47" hostname="Sunjido - 10.80.155.47" id="Test Suites/OpenBrowserTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\OpenBrowserTestSuite\\20180510_142645"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\OpenBrowserTestSuite\\20180510_142645\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - 10.80.155.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.80.155.47"/>
+         <property name="sessionId" value="e9874a74-4fd6-4c59-b858-6de846631d70"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OpenBrowserTest" classname="Test Cases/OpenBrowserTest" status="PASSED">
+         <system-out><![CDATA[2018-05-10 14:26:47 - [TEST_CASE][PASSED] - Test Cases/OpenBrowserTest: Test Cases/OpenBrowserTest
+
+2018-05-10 14:26:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 14:26:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 14:26:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 14:26:58 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 14:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OpenTest/Page_ProjectBackend/headerWebsite' is clicked on
+
+2018-05-10 14:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OpenTest/Page_ProjectBackend/headerWebsite' is clicked on
+
+2018-05-10 14:26:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 14:26:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 14:26:47 - [TEST_SUITE][PASSED] - OpenBrowserTestSuite: Test Cases/OpenBrowserTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

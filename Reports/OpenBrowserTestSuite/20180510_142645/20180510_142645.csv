@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OpenBrowserTestSuite,Firefox 60.0,,2018-05-10 14:26:47,2018-05-10 14:26:58,11.449s,PASSED
+,,,,,,
+Test Cases/OpenBrowserTest,Firefox 60.0,open in browser http://52.14.107.181:8085/ in Firefox browser,2018-05-10 14:26:47,2018-05-10 14:26:58,11.020s,PASSED
+openBrowser,Firefox 60.0,,2018-05-10 14:26:48,2018-05-10 14:26:52,3.849s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-10 14:26:52,2018-05-10 14:26:58,6.154s,PASSED
+click,Firefox 60.0,,2018-05-10 14:26:58,2018-05-10 14:26:58,0.326s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-10 14:26:58,2018-05-10 14:26:58,0.333s,PASSED
