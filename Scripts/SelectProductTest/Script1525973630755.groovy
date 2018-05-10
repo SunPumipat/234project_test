@@ -18,4 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://52.14.107.181:8085/')
+
+WebUI.setText(findTestObject('SelectProductTest/Page_ProjectBackend/input_username'), 'user')
+
+WebUI.setText(findTestObject('SelectProductTest/Page_ProjectBackend/input_password'), 'user')
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/button_add to cart'))
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/a_Carts            1'))
+
+WebUI.setText(findTestObject('SelectProductTest/Page_ProjectBackend/input_amount'), '3')
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/p_Total price  450 THB'))
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/button_confirm'))
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/div_Well done You successfully'))
+
+WebUI.click(findTestObject('SelectProductTest/Page_ProjectBackend/button_Logout'))
+
+WebUI.closeBrowser()
 
