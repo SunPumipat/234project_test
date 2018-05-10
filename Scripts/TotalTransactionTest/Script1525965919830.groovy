@@ -18,17 +18,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-import org.junit.After
+import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.14.107.181:8085/')
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), admin_username)
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), admin_password)
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Login'))
 
@@ -50,9 +49,9 @@ WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/old_transac
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Logout'))
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), user_username)
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), user_password)
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Login'))
 
@@ -65,7 +64,6 @@ WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_add 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/Carts'))
 
 WebUI.delay(2)
-
 
 //WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/update_transaction'))
 def userTransaction = WebUI.getText(findTestObject('Object Repository/TotalTransactionTest/Page_ProjectBackend/update_transaction'))
@@ -86,16 +84,15 @@ WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/div_Well do
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Logout'))
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_username'), admin_username)
 
-WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('TotalTransactionTest/Page_ProjectBackend/input_password'), admin_password)
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Login'))
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/a_Total Transaction'))
 
 //WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/new_transaction'))
-
 def newTransaction = WebUI.getText(findTestObject('Object Repository/TotalTransactionTest/Page_ProjectBackend/new_transaction'))
 
 newTransaction = newTransaction.replaceAll('Total price: ', '')
@@ -107,10 +104,6 @@ newTransaction = newTransaction.replaceAll(',', '')
 newTransaction = Integer.parseInt(newTransaction)
 
 WebUI.verifyEqual(newTransaction, oldTransaction + userTransaction)
-
-
-
-
 
 WebUI.click(findTestObject('TotalTransactionTest/Page_ProjectBackend/button_Logout'))
 
