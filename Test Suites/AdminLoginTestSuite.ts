@@ -4,10 +4,38 @@
    <name>AdminLoginTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-10T17:32:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>98d49c2f-4005-4ade-b879-7554ffc85527</testSuiteGuid>
+   <testCaseLink>
+      <guid>b4203029-c59c-4066-9b5c-940b38f77dee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdminLoginTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d4f7e7a5-6c0c-4e0d-97ad-25cf87e47b23</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AdminLoginTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d4f7e7a5-6c0c-4e0d-97ad-25cf87e47b23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8840d904-adcb-49f4-9f20-8d03a492153c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d4f7e7a5-6c0c-4e0d-97ad-25cf87e47b23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>95b129c6-b101-42e5-aa55-1d969bb6cb47</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

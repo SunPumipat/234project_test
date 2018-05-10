@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AdminLoginTestSuite,Firefox 60.0,,2018-05-10 17:27:53,2018-05-10 17:28:28,35.241s,FAILED
+,,,,,,
+Test Cases/AdminLoginTest,Firefox 60.0,,2018-05-10 17:27:53,2018-05-10 17:28:28,34.622s,FAILED
+openBrowser,Firefox 60.0,,2018-05-10 17:27:54,2018-05-10 17:27:57,3.725s,PASSED
+setText,Firefox 60.0,,2018-05-10 17:27:57,2018-05-10 17:28:28,30.563s,FAILED
