@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.14.107.181:8085/')
 
-WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('LogoutTest/Page_ProjectBackend/button_Login'))
 
