@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PassRequiredTestSuite" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="PassRequiredTestSuite" tests="1" failures="0" errors="0" time="11" timestamp="2018-05-10 21:39:36" hostname="Sunjido - 10.80.155.67" id="Test Suites/PassRequiredTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\PassRequiredTestSuite\\20180510_213935"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\PassRequiredTestSuite\\20180510_213935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - 10.80.155.67"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.80.155.67"/>
+         <property name="sessionId" value="4b137d08-261c-4fc4-9577-8607cbaa71c5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PassRequiredTest" classname="Test Cases/PassRequiredTest" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:39:37 - [TEST_CASE][PASSED] - Test Cases/PassRequiredTest: Test Cases/PassRequiredTest
+
+2018-05-10 21:39:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:39:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:39:47 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:39:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/PassRequiredTest/Page_ProjectBackend/input_username'
+
+2018-05-10 21:39:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/PassRequiredTest/Page_ProjectBackend/input_username'
+
+2018-05-10 21:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PassRequiredTest/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 21:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PassRequiredTest/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 21:39:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/PassRequiredTest/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-10 21:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PassRequiredTest/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-10 21:39:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:39:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:39:36 - [TEST_SUITE][PASSED] - PassRequiredTestSuite: Test Cases/PassRequiredTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminLoginTestSuite" time="14" tests="1" failures="0" errors="0">
+   <testsuite name="AdminLoginTestSuite" tests="1" failures="0" errors="0" time="14" timestamp="2018-05-10 21:43:06" hostname="Sunjido - 10.80.155.67" id="Test Suites/AdminLoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\AdminLoginTestSuite\\20180510_214305"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\AdminLoginTestSuite\\20180510_214305\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - 10.80.155.67"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="10.80.155.67"/>
+         <property name="sessionId" value="8c173ac3-bc7f-4e68-9085-6ae3189641d7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AdminLoginTest" classname="Test Cases/AdminLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:43:06 - [TEST_CASE][PASSED] - Test Cases/AdminLoginTest: Test Cases/AdminLoginTest
+
+2018-05-10 21:43:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:43:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:43:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:43:18 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:43:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/input_username'
+
+2018-05-10 21:43:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/input_username'
+
+2018-05-10 21:43:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/input_password'
+
+2018-05-10 21:43:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/input_password'
+
+2018-05-10 21:43:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 21:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 21:43:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 21:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/a_Products' is clicked on
+
+2018-05-10 21:43:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 21:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminLoginTest/Page_ProjectBackend/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-10 21:43:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:43:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:43:06 - [TEST_SUITE][PASSED] - AdminLoginTestSuite: Test Cases/AdminLoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PassRequiredTestSuite,Firefox 60.0,,2018-05-10 21:39:36,2018-05-10 21:39:48,11.507s,PASSED
+,,,,,,
+Test Cases/PassRequiredTest,Firefox 60.0,,2018-05-10 21:39:37,2018-05-10 21:39:48,11.191s,PASSED
+openBrowser,Firefox 60.0,,2018-05-10 21:39:37,2018-05-10 21:39:41,3.650s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-10 21:39:41,2018-05-10 21:39:47,6.383s,PASSED
+setText,Firefox 60.0,,2018-05-10 21:39:47,2018-05-10 21:39:47,0.148s,PASSED
+click,Firefox 60.0,,2018-05-10 21:39:47,2018-05-10 21:39:48,0.261s,PASSED
+click,Firefox 60.0,,2018-05-10 21:39:48,2018-05-10 21:39:48,0.235s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-10 21:39:48,2018-05-10 21:39:48,0.209s,PASSED
