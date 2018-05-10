@@ -24,11 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://52.14.107.181:8085/')
 
-WebUI.click(findTestObject('IncorrectLoginTest/Page_ProjectBackend/h1_SE 234 Project'))
+WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_username'), 'user')
-
-WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('IncorrectLoginTest/Page_ProjectBackend/button_Login'))
 
