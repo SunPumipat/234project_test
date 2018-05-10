@@ -10,4 +10,31 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>2bc155cc-5df3-4e6d-814e-67b486d6616a</testSuiteGuid>
+   <testCaseLink>
+      <guid>a2dc93f2-a721-489d-9278-48218e12039c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LogoutTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f0e5975e-339c-47be-a816-8e9965883834</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LogoutTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f0e5975e-339c-47be-a816-8e9965883834</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>fac415fa-329b-47fa-9e10-9415d8041a43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0e5975e-339c-47be-a816-8e9965883834</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>27dc89fc-1343-4300-b1d6-e25f0e59a937</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
