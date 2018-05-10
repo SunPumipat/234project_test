@@ -8,6 +8,17 @@
    <dataFileGUID>5c053130-0aae-4c5c-b083-2c6dce668e1a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>admin admin</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
