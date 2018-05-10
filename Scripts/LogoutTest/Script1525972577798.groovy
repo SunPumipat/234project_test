@@ -22,9 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_username'), 'user')
+WebUI.navigateToUrl('http://52.14.107.181:8085/')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_username'), 'user')
 
 WebUI.setText(findTestObject('LogoutTest/Page_ProjectBackend/input_password'), 'user')
 
