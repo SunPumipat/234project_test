@@ -22,6 +22,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('http://52.14.107.181:8085/')
+
 WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_username'), username)
 
 WebUI.setText(findTestObject('AdminLoginTest/Page_ProjectBackend/input_password'), password)
