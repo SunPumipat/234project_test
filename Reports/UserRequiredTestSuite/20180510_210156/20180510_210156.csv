@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserRequiredTestSuite,Firefox 60.0,,2018-05-10 21:01:57,2018-05-10 21:02:33,35.560s,PASSED
+,,,,,,
+Test Cases/UserRequiredTest,Firefox 60.0,,2018-05-10 21:01:58,2018-05-10 21:02:33,35.219s,PASSED
+openBrowser,Firefox 60.0,,2018-05-10 21:01:58,2018-05-10 21:02:02,3.610s,PASSED
+navigateToUrl,Firefox 60.0,,2018-05-10 21:02:02,2018-05-10 21:02:08,6.358s,PASSED
+setText,Firefox 60.0,,2018-05-10 21:02:08,2018-05-10 21:02:08,0.159s,PASSED
+click,Firefox 60.0,,2018-05-10 21:02:08,2018-05-10 21:02:33,24.591s,PASSED
+closeBrowser,Firefox 60.0,,2018-05-10 21:02:33,2018-05-10 21:02:33,0.208s,PASSED

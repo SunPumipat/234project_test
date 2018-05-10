@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserRequiredTestSuite" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="UserRequiredTestSuite" tests="1" failures="0" errors="0" time="35" timestamp="2018-05-10 21:01:57" hostname="Sunjido - DESKTOP-J51BJ5M" id="Test Suites/UserRequiredTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\UserRequiredTestSuite\\20180510_210156"/>
+         <property name="logFiles" value="C:\\Users\\Sun na Hee\\git\\234project_test\\Reports\\UserRequiredTestSuite\\20180510_210156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sunjido - DESKTOP-J51BJ5M"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.101.173"/>
+         <property name="sessionId" value="a053bfe1-7a6d-45fa-bf86-73e7f97662ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UserRequiredTest" classname="Test Cases/UserRequiredTest" status="PASSED">
+         <system-out><![CDATA[2018-05-10 21:01:58 - [TEST_CASE][PASSED] - Test Cases/UserRequiredTest: Test Cases/UserRequiredTest
+
+2018-05-10 21:01:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 21:02:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 21:02:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:02:08 - [MESSAGE][PASSED] - Navigate to 'http://52.14.107.181:8085/' successfully
+
+2018-05-10 21:02:08 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/UserRequiredTest/Page_ProjectBackend/input_password'
+
+2018-05-10 21:02:08 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/UserRequiredTest/Page_ProjectBackend/input_password'
+
+2018-05-10 21:02:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UserRequiredTest/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 21:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/UserRequiredTest/Page_ProjectBackend/label_Username is required' is clicked on
+
+2018-05-10 21:02:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 21:02:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 21:01:57 - [TEST_SUITE][PASSED] - UserRequiredTestSuite: Test Cases/UserRequiredTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
