@@ -18,4 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://52.14.107.181:8085/')
+
+WebUI.click(findTestObject('IncorrectLoginTest/Page_ProjectBackend/h1_SE 234 Project'))
+
+WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_username'), 'user')
+
+WebUI.setText(findTestObject('IncorrectLoginTest/Page_ProjectBackend/input_password'), 'admin')
+
+WebUI.click(findTestObject('IncorrectLoginTest/Page_ProjectBackend/button_Login'))
+
+WebUI.closeBrowser()
 
